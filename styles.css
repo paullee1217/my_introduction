@@ -39,7 +39,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1em 0;
-    position: fixed;
-    bottom: 0;
+    margin-top: 2em; /* 푸터 상단 여백 추가 */
+    position: static; /* 푸터를 페이지 맨 아래에 위치시키기 위해 고정 해제 */
     width: 100%;
 }
